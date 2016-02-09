@@ -41,7 +41,7 @@ cow-say --message='...' --template='...'
 
 To Do
 -----
-* Enhance the test formatter
+* Enhance the text formatter
 * Add more templates
 * Use Terminal::ANSIColor to make the output more appealing
 
