@@ -1,4 +1,4 @@
-Acme::Cow
+Acme::Cow [![Build Status](https://travis-ci.org/hankache/Acme-Cow.svg?branch=master)](https://travis-ci.org/hankache/Acme-Cow)
 =========
 A Perl 6 implementation of cowsay.
 
