@@ -34,9 +34,9 @@ Using the binary
 ```
 cow-say --help
 cow-say --about
-cow-say --message='...'
-cow-say --message='...' --face='...'
-cow-say --message='...' --template='...'
+cow-say --message='Hello World'
+cow-say --message='Hello World' --face='stoned'
+cow-say --message='Hello World' --template='camelia'
 ```
 
 To Do
