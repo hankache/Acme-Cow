@@ -55,7 +55,7 @@ install:
   - ps: refreshenv
   - perl6 -v
 
-build: off
+build: false
 
 # many of the settings in `environment` affect what happens in the test script
 #
