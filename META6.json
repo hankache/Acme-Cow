@@ -2,6 +2,7 @@
 	"name" : "Acme::Cow",
 	"license" : "Artistic-2.0",
 	"version" : "0.1",
+	"tags" : ["ACME","FUN"],
 	"description" : "Perl 6 implementation of cowsay.",
 	"provides" : {
 		"Acme::Cow" : "lib/Acme/Cow.pm6",
