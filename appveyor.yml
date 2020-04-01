@@ -10,10 +10,10 @@ install:
   - SET PATH=C:\strawberry\c\bin;C:\strawberry\perl\site\bin;C:\strawberry\perl\bin;%PATH%
   - git clone https://github.com/tadzik/rakudobrew %USERPROFILE%\rakudobrew
   - SET PATH=%USERPROFILE%\rakudobrew\bin;%PATH%
-  - rakudobrew build moar 2018.10
+  - rakudobrew build moar 2020.02.1
   - rakudobrew build zef
   - cd %APPVEYOR_BUILD_FOLDER%
-  - SET PATH=C:\Users\appveyor\rakudobrew\moar-2018.10\install\share\perl6\site\bin;%PATH%
+  - SET PATH=C:\Users\appveyor\rakudobrew\moar-2020.02.1\install\share\perl6\site\bin;%PATH%
   - SET AUTHOR_TESTING=1
   - zef --verbose --depsonly install .
 

@@ -1,15 +1,15 @@
 {
 	"name" : "Acme::Cow",
 	"license" : "Artistic-2.0",
-	"version" : "0.1",
+	"version" : "0.2",
 	"tags" : ["ACME","FUN"],
-	"description" : "Perl 6 implementation of cowsay.",
+	"description" : "Raku implementation of cowsay.",
 	"provides" : {
-		"Acme::Cow" : "lib/Acme/Cow.pm6",
+		"Acme::Cow" : "lib/Acme/Cow.rakumod",
 		"cow-say" : "bin/cow-say"
 	},
 	"authors" : ["Naoum Hankache"],
-	"perl" : "6.c",
+	"perl" : "6.d",
 	"depends" : [ ],
 	"source-type" : "git",
 	"source-url" : "git://github.com/hankache/Acme-Cow.git"

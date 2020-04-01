@@ -1,6 +1,6 @@
 Acme::Cow [![Build Status](https://travis-ci.org/hankache/Acme-Cow.svg?branch=master)](https://travis-ci.org/hankache/Acme-Cow) [![Build status](https://ci.appveyor.com/api/projects/status/b9t9b1up1kom5xt9?svg=true)](https://ci.appveyor.com/project/hankache/acme-cow)
 =========
-A Perl 6 implementation of cowsay.
+A Raku implementation of cowsay.
 
 Installation
 ------------
@@ -13,7 +13,7 @@ zef install Acme::Cow
 
 Examples
 --------
-```Perl 6
+```Raku
 use Acme::Cow;
 
 # Default
